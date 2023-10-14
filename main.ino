@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
-#define BLYNK_PRINT Serial#include <BlynkSimpleEsp8266.h>
-
+#define BLYNK_PRINT Serial
+#include <BlynkSimpleEsp8266.h>
 #include "DHT.h"
 
 char auth[] = "enter-auth-key-here";
