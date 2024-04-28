@@ -101,12 +101,12 @@ void loop() {
     if (NilaiHujan == 1) {
         Serial.println("Tidak Hujan | sensor
         jalan ");
-        sensorTangki(); delay(200); sensorSuhu(); delay(200); sensorTanah(); delay(200);
+        sensorTangki(); delay(2000); sensorSuhu(); delay(2000); sensorTanah(); delay(2000);
     } else {
         Serial.println("Hujan! | Semmua Sensor Mati ");
         Blynk.notify("Hujan Dideteksi, semua
         sensor dimatikan selama 5 detik!");
-        delay(2000);
+        delay(5000);
     }
     Serial.println(" "); delay(1000);
 }
